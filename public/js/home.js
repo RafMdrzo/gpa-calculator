@@ -9,9 +9,16 @@ $(document).ready(function()
 
     var units =[];
     var grades=[];
-
+    
     $("#compute").click(function(){
-
+        while(units.length > 0)
+        {
+            units.pop();
+        }
+        while(grades.length > 0)
+        {
+            grades.pop();
+        }
         
     
         $('.data .units').each(function() {
@@ -54,9 +61,24 @@ $(document).ready(function()
         gpa = parseFloat((totgrade / totunit) * 1.0);
         gpa = gpa.toFixed(3);
 
-        units=[];
-        grades=[];
+        while(units.length > 0)
+        {
+            units.pop();
+        }
+        while(grades.length > 0)
+        {
+            grades.pop();
+        }
         $("#gpa").text("");
         $("#gpa").append('<h1> GPA: ' + gpa + '</h1>');
+        
+        totgrade = 0;
+        totunit = 0;
+        gpa = 0;
+        
+    });
+    $("#reset").click(function()
+    {
+        window.location.href = "/";
     });
 });
