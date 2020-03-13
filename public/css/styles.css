@@ -8,7 +8,19 @@
 ::-webkit-scrollbar {
     display: none;
   }
-  
+  @media screen and (max-width: 400px) {
+    body{
+        width: 100vw;
+        display: flex;
+        
+    }
+    .btn-cont
+    {
+        width: 100vh;
+    }
+    table: 
+    {width: 100vw};
+  }
 *
 {
     color: white;
