@@ -1,0 +1,24 @@
+{
+  "name": "gpa-calculator",
+  "version": "1.0.0",
+  "description": "GPA Calculator",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafMdrzo/gpa-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafMdrzo/gpa-calculator/issues"
+  },
+  "homepage": "https://github.com/RafMdrzo/gpa-calculator#readme"
+}
