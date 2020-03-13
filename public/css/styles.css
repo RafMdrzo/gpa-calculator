@@ -17,6 +17,7 @@ body
 {
     background-color: #293556;
     padding: 10vw;
+    height: 100vh;
 }
 
 .table-light
@@ -37,6 +38,7 @@ table
     -webkit-box-shadow: 0px 7px 29px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 7px 29px 4px rgba(0,0,0,0.75);
     box-shadow: 0px 7px 29px 4px rgba(0,0,0,0.75);
+   
 }
 
 #addrow

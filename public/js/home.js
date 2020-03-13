@@ -5,6 +5,8 @@ $(document).ready(function()
         var prep='<tr class="data"> <td class="units"><input type="text" class="uni"></input></td>' +
                 '  <td class="grade"><input type="text" class="gra"></input></td></tr>';
         $("#tabbody").append(prep);
+        $(".btn-cont").css("margin-bottom", "10vh");
+        $("table").css("margin-bottom", "5vh");
     });
 
     var units =[];
