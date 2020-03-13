@@ -54,7 +54,8 @@ $(document).ready(function()
         gpa = parseFloat((totgrade / totunit) * 1.0);
         gpa = gpa.toFixed(3);
 
-
+        units=[];
+        grades=[];
         $("#gpa").text("");
         $("#gpa").append('<h1> GPA: ' + gpa + '</h1>');
     });
