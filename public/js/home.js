@@ -2,8 +2,8 @@ $(document).ready(function()
 {
     $("#addrow").click(function()
     {
-        var prep='<tr> <td><input type="number" class="units" id=""></input></td>' +
-                ' <td><input type="number" class="grade" id=""></input></td></tr>'
+        var prep='<tr class="data"> <td class="units"><input type="text" class="uni"></input></td>' +
+                '  <td class="grade"><input type="text" class="gra"></input></td></tr>';
         $("#tabbody").append(prep);
     });
 
@@ -19,15 +19,17 @@ $(document).ready(function()
             var val = $(".uni").val();
             val = parseFloat(val);
             units.push(val);
-            
+
+            $('.data .grade').each(function() {
+                gra = 0;
+                var gra = $(".gra").val();
+                gra = parseFloat(gra);
+                grades.push(gra);
+            });
+
         });
         
-        $('.data .grade').each(function() {
-            gra = 0;
-            var gra = $(".gra").val();
-            gra = parseFloat(gra);
-            grades.push(gra);
-        });
+        
 
         var totunit = 0;
         var totgrade = 0;
@@ -53,7 +55,7 @@ $(document).ready(function()
         gpa = gpa.toFixed(3);
 
 
-
+        $("#gpa").empty();
         $("#gpa").append('<h1> GPA: ' + gpa + '</h1>');
     });
 });
