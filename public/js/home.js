@@ -46,8 +46,6 @@ $(document).ready(function()
         totgrade=parseFloat(totgrade);
         totunit=parseFloat(totunit);
 
-        alert(totunit);
-        alert(totgrade);
 
         var gpa = 0;
 
