@@ -55,7 +55,7 @@ $(document).ready(function()
         gpa = gpa.toFixed(3);
 
 
-        $("#gpa").empty();
+        $("#gpa").text("");
         $("#gpa").append('<h1> GPA: ' + gpa + '</h1>');
     });
 });
