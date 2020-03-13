@@ -57,7 +57,9 @@ table
 {
     color: white;
 }
+
 input{
     background-color: azure;
-    color: black
+    color: black;
+    border-radius: 20px;
 }
