@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+*
+{
+    color: white;
+}
+body
+{
+    background-color: #293556;
+    padding: 10vw;
+}
+
+.table-light
+{
+    background-color: #2e4583;
+    
+}
+
+#bod
+{
+    width: 70vw;
+    height: 60vh;
+    vertical-align: middle;
+}
+table
+{
+    border-radius: 20px;
+}
+
+#addrow
+{
+    border-color: #2E4583;
+
+    color: white;
+}
+#compute
+{
+    border-color: #3E54D3;
+    
+    color: white;
+}
+#reset
+{
+    color: white;
+}
+input{
+    background-color: azure;
+    color: black
+}
